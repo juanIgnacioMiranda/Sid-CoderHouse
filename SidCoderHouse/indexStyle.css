@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    div.imagenes {
+        height: auto;
+        width: auto;
+
+    }
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    border: 10px solid;
+    border-right-color: yellow;
+    border-left-color: yellow;
+}
+
+header {
+
+
+    background-color: lightgray;
+    border: 1px solid;
+    border-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.piedeimagen {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(202, 220, 220);
+}
+
+footer {
+    padding-top: 100%;
+}
+
+main {
+    padding-top: 10%;
+
+}
+
+div.imagenes {
+    display: flex;
+
+    flex-basis: 100%;
+    justify-content: center;
+
+}
+
+div.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(204, 216, 226);
+}
+
+#botoncarrito {
+
+
+    background-color: #141514;
+    color: white;
+
+    padding: 15px 25px;
+
+}
+
+#botonproductos {
+
+    background-color: #141514;
+    color: white;
+
+    padding: 15px 25px;
+}
+
+#botonRegistrate {
+    background-color: #141514;
+    color: white;
+
+    padding: 15px 25px;
+}
+
+#botoncontactos {
+    background-color: #141514;
+    color: white;
+
+    padding: 15px 25px;
+}
+
+#botonproductos:hover {
+    transform: scale(1.2);
+}
+
+#botoncontactos:hover {
+    transform: scale(1.2);
+}
+
+#botoncarrito:hover {
+    transform: scale(1.2);
+}
+
+#botonRegistrate:hover {
+    transform: scale(1.2);
+}
+
+div.imagenes:hover {
+    transform: scale(1.01)
+}
